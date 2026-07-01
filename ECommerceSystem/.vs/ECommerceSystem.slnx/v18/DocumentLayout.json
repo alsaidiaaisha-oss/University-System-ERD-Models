@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\ECommerceSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{295DD710-7BAF-AE6C-93C7-DE3EAE64270A}|ECommerceSystem\\ECommerceSystem.csproj|c:\\users\\alsai\\downloads\\backend\\backend\\university system erd \u0026 models\\ecommercesystem\\ecommercesystem\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{295DD710-7BAF-AE6C-93C7-DE3EAE64270A}|ECommerceSystem\\ECommerceSystem.csproj|solutionrelative:ecommercesystem\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{295DD710-7BAF-AE6C-93C7-DE3EAE64270A}|ECommerceSystem\\ECommerceSystem.csproj|c:\\users\\alsai\\downloads\\backend\\backend\\university system erd \u0026 models\\ecommercesystem\\ecommercesystem\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{295DD710-7BAF-AE6C-93C7-DE3EAE64270A}|ECommerceSystem\\ECommerceSystem.csproj|solutionrelative:ecommercesystem\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{295DD710-7BAF-AE6C-93C7-DE3EAE64270A}|ECommerceSystem\\ECommerceSystem.csproj|c:\\users\\alsai\\downloads\\backend\\backend\\university system erd \u0026 models\\ecommercesystem\\ecommercesystem\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{295DD710-7BAF-AE6C-93C7-DE3EAE64270A}|ECommerceSystem\\ECommerceSystem.csproj|solutionrelative:ecommercesystem\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{295DD710-7BAF-AE6C-93C7-DE3EAE64270A}|ECommerceSystem\\ECommerceSystem.csproj|c:\\users\\alsai\\downloads\\backend\\backend\\university system erd \u0026 models\\ecommercesystem\\ecommercesystem\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{295DD710-7BAF-AE6C-93C7-DE3EAE64270A}|ECommerceSystem\\ECommerceSystem.csproj|solutionrelative:ecommercesystem\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{295DD710-7BAF-AE6C-93C7-DE3EAE64270A}|ECommerceSystem\\ECommerceSystem.csproj|c:\\users\\alsai\\downloads\\backend\\backend\\university system erd \u0026 models\\ecommercesystem\\ecommercesystem\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{295DD710-7BAF-AE6C-93C7-DE3EAE64270A}|ECommerceSystem\\ECommerceSystem.csproj|solutionrelative:ecommercesystem\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{295DD710-7BAF-AE6C-93C7-DE3EAE64270A}|ECommerceSystem\\ECommerceSystem.csproj|c:\\users\\alsai\\downloads\\backend\\backend\\university system erd \u0026 models\\ecommercesystem\\ecommercesystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{295DD710-7BAF-AE6C-93C7-DE3EAE64270A}|ECommerceSystem\\ECommerceSystem.csproj|solutionrelative:ecommercesystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{295DD710-7BAF-AE6C-93C7-DE3EAE64270A}|ECommerceSystem\\ECommerceSystem.csproj|c:\\users\\alsai\\downloads\\backend\\backend\\university system erd \u0026 models\\ecommercesystem\\ecommercesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{295DD710-7BAF-AE6C-93C7-DE3EAE64270A}|ECommerceSystem\\ECommerceSystem.csproj|solutionrelative:ecommercesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\ECommerceSystem\\ECommerceSystem\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "ECommerceSystem\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\ECommerceSystem\\ECommerceSystem\\Models\\Review.cs",
+              "RelativeToolTip": "ECommerceSystem\\Models\\Review.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T12:45:29.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\ECommerceSystem\\ECommerceSystem\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ECommerceSystem\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\ECommerceSystem\\ECommerceSystem\\Models\\Order.cs",
+              "RelativeToolTip": "ECommerceSystem\\Models\\Order.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDYAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T12:43:58.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\ECommerceSystem\\ECommerceSystem\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ECommerceSystem\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\ECommerceSystem\\ECommerceSystem\\Models\\Product.cs",
+              "RelativeToolTip": "ECommerceSystem\\Models\\Product.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwDIAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T12:42:03.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\ECommerceSystem\\ECommerceSystem\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ECommerceSystem\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\ECommerceSystem\\ECommerceSystem\\Models\\Category.cs",
+              "RelativeToolTip": "ECommerceSystem\\Models\\Category.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBoAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T12:41:42.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\ECommerceSystem\\ECommerceSystem\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ECommerceSystem\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\ECommerceSystem\\ECommerceSystem\\Models\\User.cs",
+              "RelativeToolTip": "ECommerceSystem\\Models\\User.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswDQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T12:39:41.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\ECommerceSystem\\ECommerceSystem\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "ECommerceSystem\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\ECommerceSystem\\ECommerceSystem\\Models\\OrderItem.cs",
+              "RelativeToolTip": "ECommerceSystem\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T11:17:29.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\ECommerceSystem\\ECommerceSystem\\Program.cs",
+              "RelativeDocumentMoniker": "ECommerceSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\ECommerceSystem\\ECommerceSystem\\Program.cs",
+              "RelativeToolTip": "ECommerceSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T11:08:31.696Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
