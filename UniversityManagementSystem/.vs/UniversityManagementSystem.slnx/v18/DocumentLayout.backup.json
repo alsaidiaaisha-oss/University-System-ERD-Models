@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\UniversityManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0DB5DA7B-5A3F-492A-8DA2-C7902D0BAA57}|UniversityManagementSystem\\UniversityManagementSystem.csproj|c:\\users\\alsai\\downloads\\backend\\backend\\university system erd \u0026 models\\universitymanagementsystem\\universitymanagementsystem\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DB5DA7B-5A3F-492A-8DA2-C7902D0BAA57}|UniversityManagementSystem\\UniversityManagementSystem.csproj|solutionrelative:universitymanagementsystem\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03496A78-7300-DD60-B071-5C5898DFB620}|UniversityManagementSystem\\UniversityManagementSystem.csproj|c:\\users\\alsai\\downloads\\backend\\backend\\university system erd \u0026 models\\universitymanagementsystem\\universitymanagementsystem\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03496A78-7300-DD60-B071-5C5898DFB620}|UniversityManagementSystem\\UniversityManagementSystem.csproj|solutionrelative:universitymanagementsystem\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DB5DA7B-5A3F-492A-8DA2-C7902D0BAA57}|UniversityManagementSystem\\UniversityManagementSystem.csproj|c:\\users\\alsai\\downloads\\backend\\backend\\university system erd \u0026 models\\universitymanagementsystem\\universitymanagementsystem\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DB5DA7B-5A3F-492A-8DA2-C7902D0BAA57}|UniversityManagementSystem\\UniversityManagementSystem.csproj|solutionrelative:universitymanagementsystem\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03496A78-7300-DD60-B071-5C5898DFB620}|UniversityManagementSystem\\UniversityManagementSystem.csproj|c:\\users\\alsai\\downloads\\backend\\backend\\university system erd \u0026 models\\universitymanagementsystem\\universitymanagementsystem\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03496A78-7300-DD60-B071-5C5898DFB620}|UniversityManagementSystem\\UniversityManagementSystem.csproj|solutionrelative:universitymanagementsystem\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DB5DA7B-5A3F-492A-8DA2-C7902D0BAA57}|UniversityManagementSystem\\UniversityManagementSystem.csproj|c:\\users\\alsai\\downloads\\backend\\backend\\university system erd \u0026 models\\universitymanagementsystem\\universitymanagementsystem\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DB5DA7B-5A3F-492A-8DA2-C7902D0BAA57}|UniversityManagementSystem\\UniversityManagementSystem.csproj|solutionrelative:universitymanagementsystem\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03496A78-7300-DD60-B071-5C5898DFB620}|UniversityManagementSystem\\UniversityManagementSystem.csproj|c:\\users\\alsai\\downloads\\backend\\backend\\university system erd \u0026 models\\universitymanagementsystem\\universitymanagementsystem\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03496A78-7300-DD60-B071-5C5898DFB620}|UniversityManagementSystem\\UniversityManagementSystem.csproj|solutionrelative:universitymanagementsystem\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DB5DA7B-5A3F-492A-8DA2-C7902D0BAA57}|UniversityManagementSystem\\UniversityManagementSystem.csproj|c:\\users\\alsai\\downloads\\backend\\backend\\university system erd \u0026 models\\universitymanagementsystem\\universitymanagementsystem\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DB5DA7B-5A3F-492A-8DA2-C7902D0BAA57}|UniversityManagementSystem\\UniversityManagementSystem.csproj|solutionrelative:universitymanagementsystem\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03496A78-7300-DD60-B071-5C5898DFB620}|UniversityManagementSystem\\UniversityManagementSystem.csproj|c:\\users\\alsai\\downloads\\backend\\backend\\university system erd \u0026 models\\universitymanagementsystem\\universitymanagementsystem\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03496A78-7300-DD60-B071-5C5898DFB620}|UniversityManagementSystem\\UniversityManagementSystem.csproj|solutionrelative:universitymanagementsystem\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DB5DA7B-5A3F-492A-8DA2-C7902D0BAA57}|UniversityManagementSystem\\UniversityManagementSystem.csproj|c:\\users\\alsai\\downloads\\backend\\backend\\university system erd \u0026 models\\universitymanagementsystem\\universitymanagementsystem\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DB5DA7B-5A3F-492A-8DA2-C7902D0BAA57}|UniversityManagementSystem\\UniversityManagementSystem.csproj|solutionrelative:universitymanagementsystem\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03496A78-7300-DD60-B071-5C5898DFB620}|UniversityManagementSystem\\UniversityManagementSystem.csproj|c:\\users\\alsai\\downloads\\backend\\backend\\university system erd \u0026 models\\universitymanagementsystem\\universitymanagementsystem\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03496A78-7300-DD60-B071-5C5898DFB620}|UniversityManagementSystem\\UniversityManagementSystem.csproj|solutionrelative:universitymanagementsystem\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DB5DA7B-5A3F-492A-8DA2-C7902D0BAA57}|UniversityManagementSystem\\UniversityManagementSystem.csproj|c:\\users\\alsai\\downloads\\backend\\backend\\university system erd \u0026 models\\universitymanagementsystem\\universitymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DB5DA7B-5A3F-492A-8DA2-C7902D0BAA57}|UniversityManagementSystem\\UniversityManagementSystem.csproj|solutionrelative:universitymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03496A78-7300-DD60-B071-5C5898DFB620}|UniversityManagementSystem\\UniversityManagementSystem.csproj|c:\\users\\alsai\\downloads\\backend\\backend\\university system erd \u0026 models\\universitymanagementsystem\\universitymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03496A78-7300-DD60-B071-5C5898DFB620}|UniversityManagementSystem\\UniversityManagementSystem.csproj|solutionrelative:universitymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\UniversityManagementSystem\\UniversityManagementSystem\\Models\\Student.cs",
               "RelativeDocumentMoniker": "UniversityManagementSystem\\Models\\Student.cs",
@@ -46,25 +46,24 @@
               "RelativeToolTip": "UniversityManagementSystem\\Models\\Student.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T08:39:47.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-01T08:39:47.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Enrollment.cs",
               "DocumentMoniker": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\UniversityManagementSystem\\UniversityManagementSystem\\Models\\Enrollment.cs",
               "RelativeDocumentMoniker": "UniversityManagementSystem\\Models\\Enrollment.cs",
               "ToolTip": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\UniversityManagementSystem\\UniversityManagementSystem\\Models\\Enrollment.cs",
               "RelativeToolTip": "UniversityManagementSystem\\Models\\Enrollment.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-01T08:36:34.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\UniversityManagementSystem\\UniversityManagementSystem\\Models\\Course.cs",
               "RelativeDocumentMoniker": "UniversityManagementSystem\\Models\\Course.cs",
@@ -77,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Department.cs",
               "DocumentMoniker": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\UniversityManagementSystem\\UniversityManagementSystem\\Models\\Department.cs",
               "RelativeDocumentMoniker": "UniversityManagementSystem\\Models\\Department.cs",
@@ -85,12 +84,11 @@
               "RelativeToolTip": "UniversityManagementSystem\\Models\\Department.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T08:29:51.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-01T08:29:51.96Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Instructor.cs",
               "DocumentMoniker": "C:\\Users\\alsai\\Downloads\\BackEnd\\BackEnd\\University System ERD \u0026 Models\\UniversityManagementSystem\\UniversityManagementSystem\\Models\\Instructor.cs",
               "RelativeDocumentMoniker": "UniversityManagementSystem\\Models\\Instructor.cs",
@@ -98,8 +96,7 @@
               "RelativeToolTip": "UniversityManagementSystem\\Models\\Instructor.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAowDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T08:26:07.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-01T08:26:07.837Z"
             },
             {
               "$type": "Document",
@@ -111,8 +108,7 @@
               "RelativeToolTip": "UniversityManagementSystem\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T06:11:11.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-01T06:11:11.079Z"
             }
           ]
         }
