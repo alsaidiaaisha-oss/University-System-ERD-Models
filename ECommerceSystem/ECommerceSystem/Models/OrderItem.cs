@@ -29,5 +29,11 @@ namespace ECommerceSystem.Models
         [Required]
         [Range(1, 999)]
         public int Quantity { get; set; } // User Input
+
+
+        [Required]
+        [Range(typeof(decimal), "0.01", "999999999")]
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal UnitPrice { get; set; } // From Product Price
     }
 }

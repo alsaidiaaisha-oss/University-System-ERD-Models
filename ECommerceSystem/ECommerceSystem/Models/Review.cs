@@ -32,6 +32,8 @@ namespace ECommerceSystem.Models
         [MaxLength(1000)]
         public string? Comment { get; set; } // User Input
 
+        public DateTime ReviewDate { get; set; }// User Input
+
 
 
 
