@@ -17,14 +17,14 @@ namespace ECommerceSystem.Models
         [ForeignKey(nameof(Order))]
         public int OrderId { get; set; } // Foreign Key
 
-        public Order Order { get; set; }
+        public virtual Order Order { get; set; }
 
 
 
         [ForeignKey(nameof(Product))]
         public int ProductId { get; set; } // Foreign Key
 
-        public Product Product { get; set; }
+        public virtual Product Product { get; set; }
 
         [Required]
         [Range(1, 999)]

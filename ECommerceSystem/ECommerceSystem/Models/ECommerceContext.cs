@@ -25,8 +25,10 @@ namespace ECommerceSystem.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(
-                "Server=localhost\\SQLEXPRESS;Database=ECommerceDB;Trusted_Connection=True;TrustServerCertificate=True;");
+            optionsBuilder
+                .UseLazyLoadingProxies()
+                .UseSqlServer(
+                    "Server=localhost\\SQLEXPRESS;Database=ECommerceDB;Trusted_Connection=True;TrustServerCertificate=True;");
         }
 
     }

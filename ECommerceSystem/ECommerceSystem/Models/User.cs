@@ -51,9 +51,9 @@ namespace ECommerceSystem.Models
 
 
         //  يستطيع الوصول إلى جميع الطلبات وجميع المراجعات
-        public ICollection<Order> Orders { get; set; } = new List<Order>();
+        public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 
-        public ICollection<Review> Reviews { get; set; } = new List<Review>();
+        public virtual ICollection<Review> Reviews { get; set; } = new List<Review>();
 
 
     }

@@ -24,6 +24,6 @@ namespace ECommerceSystem.Models
         [MaxLength(300)]
         public string? ImageUrl { get; set; } // User Input
 
-        public ICollection<Product> Products { get; set; } = new List<Product>();
+        public virtual ICollection<Product> Products { get; set; } = new List<Product>();
     }
 }

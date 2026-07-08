@@ -2,6 +2,7 @@
 using Microsoft.VisualBasic;
 using System.Collections;
 using System.Net;
+using Microsoft.EntityFrameworkCore;
 
 namespace ECommerceSystem
 {
@@ -411,5 +412,270 @@ namespace ECommerceSystem
             // Display confirmation message
             Console.WriteLine("Review deleted successfully.");
         }
+
+        //Q8//
+        public static void ViewAllProducts(ECommerceContext context)
+        {
+            // Display function title
+            Console.WriteLine("=== Product Catalogue ===");
+
+            // Retrieve all products from the database
+            List<Product> products = context.Products.ToList();
+
+            // Check if there are no products
+            if (products.Count == 0)
+            {
+                Console.WriteLine("No products found.");
+                return;
+            }
+
+            // Display all product details
+            foreach (Product product in products)
+            {
+                Console.WriteLine("-------------Product Details---------------------");
+                Console.WriteLine("Product ID: " + product.ProductId);
+                Console.WriteLine("Product Name: " + product.ProductName);
+                Console.WriteLine("Price: " + product.Price + " OMR");
+                Console.WriteLine("Stock Quantity: " + product.StockQuantity);
+                Console.WriteLine("Available: " + product.IsAvailable);
+            }
+
+            Console.WriteLine("----------------------------------");
+        }
+
+        //Q9//
+        public static void FilterProductsByCategoryAndPriceRange(ECommerceContext context)
+        {
+            // Display function title
+            Console.WriteLine("=== Filter Products By Category And Price Range ===");
+
+            // Display all categories
+            Console.WriteLine("\nAvailable Categories:");
+
+            var categories = context.Categories.ToList();
+
+            foreach (var category in categories)
+            {
+                Console.WriteLine($"{category.CategoryId} - {category.CategoryName}");
+            }
+
+            // Read category ID
+            Console.Write("\nEnter Category ID: ");
+            int categoryId = int.Parse(Console.ReadLine());
+
+            // Read minimum price
+            Console.Write("Enter Minimum Price: ");
+            decimal minPrice = decimal.Parse(Console.ReadLine());
+
+            // Read maximum price
+            Console.Write("Enter Maximum Price: ");
+            decimal maxPrice = decimal.Parse(Console.ReadLine());
+
+            // Retrieve filtered products
+            List<Product> products = context.Products
+                .Where(p => p.CategoryId == categoryId
+                         && p.Price >= minPrice
+                         && p.Price <= maxPrice)
+                .OrderBy(p => p.Price)
+                .ToList();
+
+            // Check if any products were found
+            if (products.Count == 0)
+            {
+                Console.WriteLine("No products found.");
+                return;
+            }
+
+            // Display filtered products
+            Console.WriteLine("\nFiltered Products:");
+
+            foreach (Product product in products)
+            {
+                Console.WriteLine("-------------Filtered Products-------------------");
+                Console.WriteLine("Product ID: " + product.ProductId);
+                Console.WriteLine("Product Name: " + product.ProductName);
+                Console.WriteLine("Price: " + product.Price + " OMR");
+                Console.WriteLine("Stock Quantity: " + product.StockQuantity);
+                Console.WriteLine("Available: " + product.IsAvailable);
+            }
+
+            Console.WriteLine("--------------------------------");
+        }
+        //Q10//
+        public static void GetCategoryWithProducts(ECommerceContext context)
+        {
+            // Display function title
+            Console.WriteLine("=== Category With Products ===");
+
+            // Display all categories
+            var categories = context.Categories.ToList();
+
+            foreach (var category in categories)
+            {
+                Console.WriteLine($"{category.CategoryId} - {category.CategoryName}");
+            }
+
+            // Read Category ID
+            Console.Write("\nEnter Category ID: ");
+            int categoryId = int.Parse(Console.ReadLine());
+
+            // Retrieve the category with all its products
+            Category categoryData = context.Categories
+                .Include(c => c.Products)
+                .FirstOrDefault(c => c.CategoryId == categoryId);
+
+            // Check if the category exists
+            if (categoryData == null)
+            {
+                Console.WriteLine("Category not found.");
+                return;
+            }
+
+            // Display category information
+            Console.WriteLine("\n===== Category Information =====");
+            Console.WriteLine("Category ID: " + categoryData.CategoryId);
+            Console.WriteLine("Category Name: " + categoryData.CategoryName);
+            Console.WriteLine("Description: " + categoryData.Description);
+
+            // Display products
+            Console.WriteLine("\n===== Products =====");
+
+            if (categoryData.Products.Count == 0)
+            {
+                Console.WriteLine("No products found in this category.");
+            }
+            else
+            {
+                foreach (Product product in categoryData.Products)
+                {
+                    Console.WriteLine("--------------------------------");
+                    Console.WriteLine("Product ID: " + product.ProductId);
+                    Console.WriteLine("Product Name: " + product.ProductName);
+                    Console.WriteLine("Price: " + product.Price + " OMR");
+                    Console.WriteLine("Stock Quantity: " + product.StockQuantity);
+                    Console.WriteLine("Available: " + product.IsAvailable);
+                }
+            }
+        }
+        //Q11//
+        public static void ViewOrderHistory(ECommerceContext context)
+        {
+            // Display function title
+            Console.WriteLine("=== View Order History ===");
+
+            // Read User ID
+            Console.Write("Enter User ID: ");
+            int userId = int.Parse(Console.ReadLine());
+
+            // Retrieve the user with orders, order items, and products
+            User user = context.Users .Include(u => u.Orders)
+                .ThenInclude(o => o.OrderItems)
+                .ThenInclude(i => i.Product)
+                .FirstOrDefault(u => u.UserId == userId);
+
+            // Check if the user exists
+            if (user == null)
+            {
+                Console.WriteLine("User not found.");
+                return;
+            }
+
+            // Check if the user has any orders
+            if (user.Orders.Count == 0)
+            {
+                Console.WriteLine("This user has no orders.");
+                return;
+            }
+
+            // Display all orders
+            foreach (Order order in user.Orders)
+            {
+                Console.WriteLine("\n==================================");
+                Console.WriteLine("Order ID: " + order.OrderId);
+                Console.WriteLine("Order Date: " + order.OrderDate);
+                Console.WriteLine("Status: " + order.Status);
+                Console.WriteLine("Total Amount: " + order.TotalAmount);
+
+                Console.WriteLine("Products:");
+
+                // Display all products in the order
+                foreach (OrderItem item in order.OrderItems)
+                {
+                    Console.WriteLine("--------------------------------");
+                    Console.WriteLine("Product Name: " + item.Product.ProductName);
+                    Console.WriteLine("Quantity: " + item.Quantity);
+                    Console.WriteLine("Unit Price: " + item.UnitPrice);
+                }
+            }
+        }
+
+        //Q12//
+        //part1//
+        public static void ProductSummaryReport(ECommerceContext context)
+        {
+            // Display function title
+            Console.WriteLine("=== Product Summary Report ===");
+
+            // Retrieve the product summary using projection
+            var products = context.Products
+                .Select(p => new
+                {
+                    ProductName = p.ProductName,
+                    CategoryName = p.Category.CategoryName,
+                    ReviewCount = p.Reviews.Count(),
+                    AvgRating = p.Reviews.Any()
+                                ? p.Reviews.Average(r => r.Rating)
+                                : 0,
+                    StockQuantity = p.StockQuantity
+                })
+                .ToList();
+
+            // Display the summary report
+            foreach (var product in products)
+            {
+                Console.WriteLine("--------------------------------");
+                Console.WriteLine("Product: " + product.ProductName);
+                Console.WriteLine("Category: " + product.CategoryName);
+                Console.WriteLine("Average Rating: " + product.AvgRating);
+                Console.WriteLine("Review Count: " + product.ReviewCount);
+                Console.WriteLine("Stock Quantity: " + product.StockQuantity);
+            }
+        }
+        //partB//
+        public static void LazyLoadingDemo(ECommerceContext context)
+        {
+            // Display function title
+            Console.WriteLine("=== Lazy Loading Demo ===");
+
+            // Read Product ID
+            Console.Write("Enter Product ID: ");
+            int productId = int.Parse(Console.ReadLine());
+
+            // Retrieve one product WITHOUT Include
+            Product product = context.Products
+                .FirstOrDefault(p => p.ProductId == productId);
+
+            // Check if the product exists
+            if (product == null)
+            {
+                Console.WriteLine("Product not found.");
+                return;
+            }
+
+            // Display product information
+            Console.WriteLine("Product Name: " + product.ProductName);
+
+            // SECOND QUERY FIRES HERE (Lazy Loading)
+            Console.WriteLine("\nReviews:");
+
+            foreach (Review review in product.Reviews)
+            {
+                Console.WriteLine("--------------------------------");
+                Console.WriteLine("Rating: " + review.Rating);
+                Console.WriteLine("Comment: " + review.Comment);
+                Console.WriteLine("Review Date: " + review.ReviewDate);
+            }
+        }
+
     }
 }

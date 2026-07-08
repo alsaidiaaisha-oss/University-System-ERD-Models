@@ -17,12 +17,12 @@ namespace ECommerceSystem.Models
         [ForeignKey(nameof(User))]
         public int UserId { get; set; } // Foreign Key
 
-        public User User { get; set; }
+        public virtual User User { get; set; }
 
         [ForeignKey(nameof(Product))]
         public int ProductId { get; set; } // Foreign Key
 
-        public Product Product { get; set; }
+        public virtual Product Product { get; set; }
 
 
         [Required]

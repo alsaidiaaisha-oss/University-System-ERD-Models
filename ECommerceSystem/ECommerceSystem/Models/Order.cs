@@ -19,7 +19,7 @@ namespace ECommerceSystem.Models
             [ForeignKey(nameof(User))]
             public int UserId { get; set; } // Foreign Key
 
-             public User User { get; set; }
+        public virtual User User { get; set; }
 
             [Required]
            
@@ -52,7 +52,7 @@ namespace ECommerceSystem.Models
 
 
 
-        public ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
+        public virtual ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
 
 
 

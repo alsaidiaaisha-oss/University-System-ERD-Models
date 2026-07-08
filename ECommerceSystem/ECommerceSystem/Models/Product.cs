@@ -38,7 +38,7 @@ namespace ECommerceSystem.Models
         [ForeignKey(nameof(Category))]
         public int CategoryId { get; set; } // Foreign Key
 
-        public Category Category { get; set; }
+        public virtual Category Category { get; set; }
 
         [Required]
         public DateTime CreatedAt { get; set; } // User Input
@@ -46,9 +46,9 @@ namespace ECommerceSystem.Models
         public bool IsAvailable { get; set; } = true; // Default Value
 
 
-        public ICollection<Review> Reviews { get; set; } = new List<Review>();
+        public virtual ICollection<Review> Reviews { get; set; } = new List<Review>();
 
-        public ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
+        public virtual ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
 
     }
 }
